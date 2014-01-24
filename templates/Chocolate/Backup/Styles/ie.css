@@ -1,0 +1,36 @@
+/** IE 67 Specific Fixes **/
+
+* html #Menu li a {
+	float: left;
+	padding-bottom: 18px;
+}
+* html .Content {
+	height: 500px;
+}
+* html #Outer {
+	height: 600px;
+}
+.Content .ProductList li {
+	height: 21em;
+}
+
+* html .SelectGiftWrapMultiple {
+	height: 400px;
+}
+
+/** General IE Fixes **/
+.Content .FeedLink {
+	margin: 0.1em 4px 0 0;
+}
+#SearchForm .Button {
+	vertical-align: bottom;
+}
+select, input {
+	font-size: 0.95em;
+}
+.ProductAddToCart dd {
+	float: none;
+}
+.ProductAddToCart dt div.Required, #CartEditProductFieldsForm dt div.Required{
+	margin-left: 0px;
+}
