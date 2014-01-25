@@ -996,7 +996,7 @@ ul.ShippingAddressList li {
     float: left;
     width: 190px;
     text-align: center;
-    margin-right: 20px;
+    margin-right: 0px;
     display: inline;
     padding-top: 10px;
 }
@@ -2059,7 +2059,7 @@ p.QuantityInput, p.AddCartButton {
 
 #ProductDetails .ProductThumbImage {
     height: 220px;
-    width: 220px;
+    width: 210px;
     overflow: hidden;
     margin:auto;
 }
