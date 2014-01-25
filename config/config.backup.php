@@ -1,6 +1,6 @@
 <?php
 
-	// Last Updated: 2nd Dec 2013 @ 1:04 PM
+	// Last Updated: 20th Jan 2014 @ 5:04 PM
 
 	$GLOBALS['ISC_CFG']["isSetup"] = true;
 	$GLOBALS['ISC_CFG']["Language"] = 'en';
@@ -20,7 +20,7 @@
 London,
 E6 2AQ';
 	$GLOBALS['ISC_CFG']["LogoType"] = 'image';
-	$GLOBALS['ISC_CFG']["StoreLogo"] = 'MAHA-logo.png';
+	$GLOBALS['ISC_CFG']["StoreLogo"] = 'Maha-London-Logo.png';
 	$GLOBALS['ISC_CFG']["ShopPath"] = 'http://maha-london.co.uk/shop';
 	$GLOBALS['ISC_CFG']["CharacterSet"] = 'UTF-8';
 	$GLOBALS['ISC_CFG']["HomePagePageTitle"] = 'MAHA London | Official online store';
@@ -30,7 +30,7 @@ E6 2AQ';
 	$GLOBALS['ISC_CFG']["ImageDirectory"] = 'product_images';
 	$GLOBALS['ISC_CFG']["template"] = 'Chocolate';
 	$GLOBALS['ISC_CFG']["SiteColor"] = 'brown';
-	$GLOBALS['ISC_CFG']["CurrencyToken"] = '$';
+	$GLOBALS['ISC_CFG']["CurrencyToken"] = '£';
 	$GLOBALS['ISC_CFG']["CurrencyLocation"] = 'left';
 	$GLOBALS['ISC_CFG']["DecimalToken"] = '.';
 	$GLOBALS['ISC_CFG']["DecimalPlaces"] = 2;
@@ -53,13 +53,13 @@ E6 2AQ';
 	$GLOBALS['ISC_CFG']["DisplayDateFormat"] = 'jS M Y';
 	$GLOBALS['ISC_CFG']["ExportDateFormat"] = 'jS M Y';
 	$GLOBALS['ISC_CFG']["ExtendedDisplayDateFormat"] = 'jS M Y @ g:i A';
-	$GLOBALS['ISC_CFG']["HomeFeaturedProducts"] = 4;
-	$GLOBALS['ISC_CFG']["HomeNewProducts"] = 8;
+	$GLOBALS['ISC_CFG']["HomeFeaturedProducts"] = 9;
+	$GLOBALS['ISC_CFG']["HomeNewProducts"] = 9;
 	$GLOBALS['ISC_CFG']["HomeBlogPosts"] = 10;
-	$GLOBALS['ISC_CFG']["CategoryProductsPerPage"] = 16;
-	$GLOBALS['ISC_CFG']["CategoryListDepth"] = 1;
+	$GLOBALS['ISC_CFG']["CategoryProductsPerPage"] = 18;
+	$GLOBALS['ISC_CFG']["CategoryListDepth"] = 4;
 	$GLOBALS['ISC_CFG']["ProductReviewsPerPage"] = 10;
-	$GLOBALS['ISC_CFG']["TagCloudsEnabled"] = 1;
+	$GLOBALS['ISC_CFG']["TagCloudsEnabled"] = 0;
 	$GLOBALS['ISC_CFG']["ShowAddToCartQtyBox"] = 1;
 	$GLOBALS['ISC_CFG']["CaptchaEnabled"] = 1;
 	$GLOBALS['ISC_CFG']["ShowCartSuggestions"] = 1;
@@ -72,15 +72,15 @@ E6 2AQ';
 	$GLOBALS['ISC_CFG']["QuickSearch"] = 1;
 
 	// Shipping Settings
-	$GLOBALS['ISC_CFG']["CompanyName"] = '';
-	$GLOBALS['ISC_CFG']["CompanyAddress"] = '';
-	$GLOBALS['ISC_CFG']["CompanyCity"] = '';
-	$GLOBALS['ISC_CFG']["CompanyCountry"] = '';
-	$GLOBALS['ISC_CFG']["CompanyState"] = '';
-	$GLOBALS['ISC_CFG']["CompanyZip"] = '';
+	$GLOBALS['ISC_CFG']["CompanyName"] = 'MAHA London (Soft Touch International LTD)';
+	$GLOBALS['ISC_CFG']["CompanyAddress"] = '36 Plashet Grove';
+	$GLOBALS['ISC_CFG']["CompanyCity"] = 'England';
+	$GLOBALS['ISC_CFG']["CompanyCountry"] = 'United Kingdom';
+	$GLOBALS['ISC_CFG']["CompanyState"] = 'London';
+	$GLOBALS['ISC_CFG']["CompanyZip"] = 'E6 1AE';
 
 	// Checkout Settings
-	$GLOBALS['ISC_CFG']["CheckoutMethods"] = '';
+	$GLOBALS['ISC_CFG']["CheckoutMethods"] = 'checkout_cod,checkout_instore,checkout_paypal';
 	$GLOBALS['ISC_CFG']['CheckoutType'] = 'single';
 	$GLOBALS['ISC_CFG']['GuestCheckoutEnabled'] = 1;
 	$GLOBALS['ISC_CFG']['GuestCheckoutCreateAccounts'] = 1;
@@ -101,15 +101,15 @@ E6 2AQ';
 	$GLOBALS['ISC_CFG']['ShowDownloadTemplates'] = '1';
 	$GLOBALS['ISC_CFG']['TagCartQuantityBoxes'] = 'dropdown';
 
-	$GLOBALS['ISC_CFG']["RSSNewProducts"] = 1;
-	$GLOBALS['ISC_CFG']["RSSPopularProducts"] = 1;
-	$GLOBALS['ISC_CFG']["RSSFeaturedProducts"] = 1;
-	$GLOBALS['ISC_CFG']["RSSCategories"] = 1;
-	$GLOBALS['ISC_CFG']["RSSProductSearches"] = 1;
-	$GLOBALS['ISC_CFG']["RSSLatestBlogEntries"] = 1;
+	$GLOBALS['ISC_CFG']["RSSNewProducts"] = 0;
+	$GLOBALS['ISC_CFG']["RSSPopularProducts"] = 0;
+	$GLOBALS['ISC_CFG']["RSSFeaturedProducts"] = 0;
+	$GLOBALS['ISC_CFG']["RSSCategories"] = 0;
+	$GLOBALS['ISC_CFG']["RSSProductSearches"] = 0;
+	$GLOBALS['ISC_CFG']["RSSLatestBlogEntries"] = 0;
 	$GLOBALS['ISC_CFG']["RSSItemsLimit"] = 10;
 	$GLOBALS['ISC_CFG']["RSSCacheTime"] = 60;
-	$GLOBALS['ISC_CFG']["RSSSyndicationIcons"] = 1;
+	$GLOBALS['ISC_CFG']["RSSSyndicationIcons"] = 0;
 
 	$GLOBALS['ISC_CFG']['BackupsLocal'] = 1;
 	$GLOBALS['ISC_CFG']['BackupsRemoteFTP'] = 0;
@@ -142,7 +142,7 @@ E6 2AQ';
 	$GLOBALS['ISC_CFG']['SystemLogMaxLength'] = 0;
 	$GLOBALS['ISC_CFG']['AdministratorLogging'] = 1;
 	$GLOBALS['ISC_CFG']['AdministratorLogMaxLength'] = 0;
-	$GLOBALS['ISC_CFG']['DebugMode'] = 0;
+	$GLOBALS['ISC_CFG']['DebugMode'] = 1;
 
 	$GLOBALS['ISC_CFG']['EnableReturns'] = 1;
 	$GLOBALS['ISC_CFG']['ReturnReasons'] = array (
@@ -174,7 +174,7 @@ E6 2AQ';
 	$GLOBALS['ISC_CFG']['UpdateInventoryLevels'] = 1;
 	$GLOBALS['ISC_CFG']['UpdateInventoryOnOrderEdit'] = 1;
 	$GLOBALS['ISC_CFG']['UpdateInventoryOnOrderDelete'] = 0;
-	$GLOBALS['ISC_CFG']['OrderStatusNotifications'] = '11,9,8,3,10,2,4';
+	$GLOBALS['ISC_CFG']['OrderStatusNotifications'] = '7,11,9,8,3,10,2,5,6,4';
 
 	$GLOBALS['ISC_CFG']['AddonModules'] = '';
 
@@ -186,12 +186,12 @@ E6 2AQ';
 	$GLOBALS['ISC_CFG']['ShowProductPrice'] = 1;
 	$GLOBALS['ISC_CFG']['ShowProductSKU'] = 0;
 	$GLOBALS['ISC_CFG']['ShowProductWeight'] = 0;
-	$GLOBALS['ISC_CFG']['ShowProductBrand'] = 0;
-	$GLOBALS['ISC_CFG']['ShowProductShipping'] = 1;
-	$GLOBALS['ISC_CFG']['ShowProductRating'] = 1;
+	$GLOBALS['ISC_CFG']['ShowProductBrand'] = 1;
+	$GLOBALS['ISC_CFG']['ShowProductShipping'] = 0;
+	$GLOBALS['ISC_CFG']['ShowProductRating'] = 0;
 	$GLOBALS['ISC_CFG']['ProductImageMode'] = 'lightbox';
 
-	$GLOBALS['ISC_CFG']['ShowAddThisLink'] = 1;
+	$GLOBALS['ISC_CFG']['ShowAddThisLink'] = 0;
 
 	// DO NOT CHANGE THIS VARIABLE OR YOU WILL BREAK ORDERS
 	$GLOBALS['ISC_CFG']["EncryptionToken"] = '83fab2e4ce8654f25b0a6873ef718def';
@@ -200,9 +200,9 @@ E6 2AQ';
 	$GLOBALS['ISC_CFG']["EnableAccountCreation"] = 1;
 	$GLOBALS['ISC_CFG']['EnableProductComparisons'] = 0;
 	$GLOBALS['ISC_CFG']["EnableOrderComments"] = 1;
-	$GLOBALS['ISC_CFG']["EnableOrderTermsAndConditions"] = 0;
-	$GLOBALS['ISC_CFG']["OrderTermsAndConditionsType"] = '';
-	$GLOBALS['ISC_CFG']["OrderTermsAndConditionsLink"] = '';
+	$GLOBALS['ISC_CFG']["EnableOrderTermsAndConditions"] = 1;
+	$GLOBALS['ISC_CFG']["OrderTermsAndConditionsType"] = 'link';
+	$GLOBALS['ISC_CFG']["OrderTermsAndConditionsLink"] = 'http://maha-london.co.uk/shop/terms-and-conditions';
 	$GLOBALS['ISC_CFG']["OrderTermsAndConditions"] = '';
 
 	// Logo Settings
@@ -268,9 +268,9 @@ E6 2AQ';
 	// Bulk Discounts
 	$GLOBALS['ISC_CFG']['BulkDiscountEnabled'] = 1;
 
-	$GLOBALS['ISC_CFG']['EnableProductTabs'] = 1;
+	$GLOBALS['ISC_CFG']['EnableProductTabs'] = 0;
 
-	$GLOBALS['ISC_CFG']['MultipleShippingAddresses'] = 1;
+	$GLOBALS['ISC_CFG']['MultipleShippingAddresses'] = 0;
 
 	// Vendor Edition Settings
 	$GLOBALS['ISC_CFG']['VendorLogoSize'] = '120x120';
@@ -283,6 +283,9 @@ E6 2AQ';
 	$GLOBALS['ISC_CFG']['GettingStartedCompleted'] = array (
   0 => 'settings',
   1 => 'design',
+  2 => 'products',
+  3 => 'paymentMethods',
+  4 => 'taxSettings',
 );
 
 	// The favicon file
@@ -298,7 +301,7 @@ E6 2AQ';
 	// Advance Search format (search all)
 	$GLOBALS['ISC_CFG']['SearchDefaultProductSort'] = 'relevance';
 	$GLOBALS['ISC_CFG']['SearchDefaultContentSort'] = 'relevance';
-	$GLOBALS['ISC_CFG']['SearchProductDisplayMode'] = 'list';
+	$GLOBALS['ISC_CFG']['SearchProductDisplayMode'] = 'grid';
 	$GLOBALS['ISC_CFG']['SearchResultsPerPage'] = 16;
 	$GLOBALS['ISC_CFG']['SearchOptimisation'] = 'fulltext';
 
@@ -325,18 +328,18 @@ E6 2AQ';
 	$GLOBALS['ISC_CFG']['ShoppingComparisonModules'] = '';
 
 	// Maintenance
-	$GLOBALS['ISC_CFG']["DownForMaintenance"] = 1;
+	$GLOBALS['ISC_CFG']["DownForMaintenance"] = 0;
 	$GLOBALS['ISC_CFG']["DownForMaintenanceMessage"] = 'Our web developing hamsters are hard at work creating our brand new site. <br /><br />   It should be available before new years eve (2013 - 2014). <br /><br /> Please feel free to visit us on our launch day.';
 
 	// Starting Order Number
-	$GLOBALS['ISC_CFG']["StartingOrderNumber"] = 100;
+	$GLOBALS['ISC_CFG']["StartingOrderNumber"] = 101;
 
 	// Shipping Manager Settings
 	$GLOBALS['ISC_CFG']['ShippingManagerModules'] = '';
 
 	// 'Customers who viewed this product also viewed' Settings
 	$GLOBALS['ISC_CFG']['EnableCustomersAlsoViewed'] = 1;
-	$GLOBALS['ISC_CFG']['CustomersAlsoViewedCount'] = 4;
+	$GLOBALS['ISC_CFG']['CustomersAlsoViewedCount'] = 3;
 
 	// Ebay Settings
 	$GLOBALS['ISC_CFG']['EbayDevId'] = '';
@@ -355,23 +358,43 @@ E6 2AQ';
 	$GLOBALS['ISC_CFG']['RedirectWWW'] = '2';
 
 	// Tax Settings
-	$GLOBALS['ISC_CFG']['taxLabel'] = 'Tax';
-	$GLOBALS['ISC_CFG']['taxEnteredWithPrices'] = 0;
-	$GLOBALS['ISC_CFG']['taxCalculationBasedOn'] = 0;
-	$GLOBALS['ISC_CFG']['taxDefaultTaxDisplayCatalog'] = 0;
-	$GLOBALS['ISC_CFG']['taxDefaultTaxDisplayProducts'] = 0;
-	$GLOBALS['ISC_CFG']['taxDefaultTaxDisplayCart'] = 0;
-	$GLOBALS['ISC_CFG']['taxDefaultTaxDisplayOrders'] = 0;
-	$GLOBALS['ISC_CFG']['taxChargesOnOrdersBreakdown'] = 0;
-	$GLOBALS['ISC_CFG']['taxChargesInCartBreakdown'] = 0;
-	$GLOBALS['ISC_CFG']['taxDefaultCountry'] = 0;
-	$GLOBALS['ISC_CFG']['taxDefaultState'] = 0;
-	$GLOBALS['ISC_CFG']['taxDefaultZipCode'] = '';
+	$GLOBALS['ISC_CFG']['taxLabel'] = 'VAT';
+	$GLOBALS['ISC_CFG']['taxEnteredWithPrices'] = '1';
+	$GLOBALS['ISC_CFG']['taxCalculationBasedOn'] = '2';
+	$GLOBALS['ISC_CFG']['taxDefaultTaxDisplayCatalog'] = '0';
+	$GLOBALS['ISC_CFG']['taxDefaultTaxDisplayProducts'] = '0';
+	$GLOBALS['ISC_CFG']['taxDefaultTaxDisplayCart'] = '0';
+	$GLOBALS['ISC_CFG']['taxDefaultTaxDisplayOrders'] = '0';
+	$GLOBALS['ISC_CFG']['taxChargesOnOrdersBreakdown'] = '0';
+	$GLOBALS['ISC_CFG']['taxChargesInCartBreakdown'] = '0';
+	$GLOBALS['ISC_CFG']['taxDefaultCountry'] = '225';
+	$GLOBALS['ISC_CFG']['taxDefaultState'] = '300';
+	$GLOBALS['ISC_CFG']['taxDefaultZipCode'] = 'E6 1AE';
 	$GLOBALS['ISC_CFG']['taxPendingChanges'] = array (
+  'deleteClass' => 
+  array (
+    0 => 3,
+    1 => 1,
+    2 => 2,
+  ),
+  'rebuildPricing' => 
+  array (
+    0 => 0,
+  ),
 );
-	$GLOBALS['ISC_CFG']['taxShippingTaxClass'] = 2;
-	$GLOBALS['ISC_CFG']['taxGiftWrappingTaxClass'] = 3;
+	$GLOBALS['ISC_CFG']['taxShippingTaxClass'] = '0';
+	$GLOBALS['ISC_CFG']['taxGiftWrappingTaxClass'] = '3';
 	$GLOBALS['ISC_CFG']['taxPendingChanges'] = array (
+  'deleteClass' => 
+  array (
+    0 => 3,
+    1 => 1,
+    2 => 2,
+  ),
+  'rebuildPricing' => 
+  array (
+    0 => 0,
+  ),
 );
 
 	// PCI config
