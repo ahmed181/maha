@@ -16,18 +16,18 @@
 				<span class="FloatLeft" style="display: %%GLOBAL_DisplayAddQty%%;">
 					%%GLOBAL_AddToCartQty%%
 				</span>
-				<div class="BulkDiscount">
-					%%GLOBAL_AddToCartButtonOptimizerScriptTag%%
-						<input type="submit" value="ADD TO CART" alt="" />
-					%%GLOBAL_AddToCartButtonOptimizerNoScriptTag%%
-					<div class="BulkDiscountLink" style="display: %%GLOBAL_HideBulkDiscountLink%%;">
-						<a href="#" onclick="$.iModal({data: $('#ProductDetailsBulkDiscountThickBox').html(), width: 600}); return false;">
-							%%LNG_BulkDiscountLink%%
-						</a>
-					</div>
-				</div>
 			</div>
 		</div>
+        <div class="BulkDiscount">
+            %%GLOBAL_AddToCartButtonOptimizerScriptTag%%
+            %%GLOBAL_AddToCartButtonOptimizerNoScriptTag%%
+            <div class="BulkDiscountLink" style="display: %%GLOBAL_HideBulkDiscountLink%%;">
+                <a href="#" onclick="$.iModal({data: $('#ProductDetailsBulkDiscountThickBox').html(), width: 600}); return false;">
+                    %%LNG_BulkDiscountLink%%
+                </a>
+            </div>
+        </div>
+        <input type="submit" value="ADD TO CART" alt="" />
 	</div>
 </form>
 

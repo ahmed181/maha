@@ -103,7 +103,7 @@
 
 			cssProperties = {
 				position: 'fixed',
-				zIndex: 3100,
+				zIndex: 999999,
 				width: this.options.width+'px'
 			};
 
@@ -179,7 +179,7 @@
 					position: 'fixed',
 					left: 0,
 					top: 0,
-					zIndex: 3000
+					zIndex: 999999
 				})
 				.appendTo('body')
 			;
@@ -212,7 +212,7 @@
 					position: 'fixed',
 					left: 0,
 					top: 0,
-					zIndex: 3000
+					zIndex: 999999
 				})
 				.appendTo('body')
 			;
@@ -228,7 +228,7 @@
 				$('<iframe/>')
 					.attr('src', 'javascript:false;')
 					.attr('id', 'ModalTempiFrame')
-					.css({opacity: 0, position: 'absolute', width: wWidth, height: wHeight, zIndex: 1000, top: 0, left: 0})
+					.css({opacity: 0, position: 'absolute', width: wWidth, height: wHeight, zIndex: 999999, top: 0, left: 0})
 					.appendTo('body')
 				;
 			}

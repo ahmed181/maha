@@ -992,9 +992,28 @@ ul.ShippingAddressList li {
     margin-bottom: 20px;
 }
 
+.ProductDetailsGrid.ProductAddToCart select {
+    width: 190px;
+}
+
+.ProductDetailsGrid.ProductAddToCart select.Field45 {
+    width: 54px;
+}
+
+.ProductDetailsGrid.ProductAddToCart .BulkDiscount {
+    clear: both;
+    margin-left: 140px;
+    margin-top: 50px;
+}
+
+.ProductDetailsGrid.ProductAddToCart input[type=submit] {
+    margin-left: 140px;
+    margin-top: 20px;
+}
+
 .PrimaryProductDetails .ProductThumb {
     float: left;
-    width: 190px;
+    width: 210px !important;
     text-align: center;
     margin-right: 0px;
     display: inline;

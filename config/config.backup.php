@@ -1,6 +1,6 @@
 <?php
 
-	// Last Updated: 20th Jan 2014 @ 5:04 PM
+	// Last Updated: 26th Jan 2014 @ 9:06 PM
 
 	$GLOBALS['ISC_CFG']["isSetup"] = true;
 	$GLOBALS['ISC_CFG']["Language"] = 'en';
@@ -162,10 +162,10 @@ E6 2AQ';
 	$GLOBALS['ISC_CFG']['SendReturnConfirmation'] = 1;
 	$GLOBALS['ISC_CFG']['NotifyOnReturnStatusChange'] = 1;
 
-	$GLOBALS['ISC_CFG']['EnableGiftCertificates'] = 1;
+	$GLOBALS['ISC_CFG']['EnableGiftCertificates'] = 0;
 	$GLOBALS['ISC_CFG']['GiftCertificateAmounts'] = array (
 );
-	$GLOBALS['ISC_CFG']['GiftCertificateCustomAmounts'] = 1;
+	$GLOBALS['ISC_CFG']['GiftCertificateCustomAmounts'] = 0;
 	$GLOBALS['ISC_CFG']['GiftCertificateMinimum'] = 1;
 	$GLOBALS['ISC_CFG']['GiftCertificateMaximum'] = 1000;
 	$GLOBALS['ISC_CFG']['GiftCertificateExpiry'] = 0;
@@ -407,7 +407,7 @@ E6 2AQ';
 	$GLOBALS['ISC_CFG']['PCILoginInactiveTimeDay'] = 0;
 
 	// Mobile/Portable Template
-	$GLOBALS['ISC_CFG']['enableMobileTemplate'] = true;
+	$GLOBALS['ISC_CFG']['enableMobileTemplate'] = false;
 	$GLOBALS['ISC_CFG']['enableMobileTemplateDevices'] = array (
   0 => 'iphone',
   1 => 'ipod',
